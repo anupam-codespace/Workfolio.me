@@ -5,8 +5,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Disable SWC minification to avoid the unit value crash on WebAssembly fallback environments
-  swcMinify: false,
 };
 
 export default nextConfig;

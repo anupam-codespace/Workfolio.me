@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { siteConfig } from "@/lib/data";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin } from "./Icons";
 
 export default function Footer() {
   return (
