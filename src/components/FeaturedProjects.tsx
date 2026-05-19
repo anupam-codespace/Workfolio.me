@@ -9,7 +9,7 @@ export default function FeaturedProjects() {
   const featured = projects.slice(0, 3);
 
   return (
-    <section className="px-6 md:px-12 lg:px-16 py-20 border-t border-[#222]">
+    <section id="projects" data-section-label="Projects Section" className="px-6 md:px-12 lg:px-16 py-20 border-t border-[#222]">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
