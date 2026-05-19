@@ -7,7 +7,7 @@ import { Linkedin, Github, MessageCircle } from "./Icons";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen grid-bg flex flex-col">
+    <section id="hero" data-section-label="Hero Section" className="relative min-h-screen grid-bg flex flex-col">
       {/* Blue side glows */}
       <div className="blue-glow-left" />
       <div className="blue-glow-right" />
